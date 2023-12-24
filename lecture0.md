@@ -7,12 +7,12 @@
 5. Video (basically a pixels which changes over a period of time)
 6. Pseudocode
 7. Programming Paradigm
-7.1 Functions
-   *  arguments, return values
-7.2 Conditionals
-7.3 ﻿Boolean expressions
-7.4 Loops
-7.5 ﻿Variable
+    1. Functions
+        1.  arguments, return values
+    2. Conditionals
+    3. ﻿Boolean expressions
+    4. Loops
+    5. ﻿Variable
      
      
 
