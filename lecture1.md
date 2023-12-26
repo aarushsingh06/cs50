@@ -14,7 +14,7 @@
      2. Conditional
      3. Variables
      4. Loops (for and while)
-   5. Terminal (functions)
+   6. Terminal (functions)
       1.cd
       2.ср
       3.ls (list)
@@ -22,5 +22,6 @@
       5.mv
       6.rm
       7.rmdir
-   6. 
+   7. Comments
+   8. 
          
