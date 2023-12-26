@@ -4,7 +4,7 @@
    3. Libraries
    4. C
       1. Data Types
-         1.Bool
+         1.1Bool
          2.Char
          3.double
          4.float
