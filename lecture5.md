@@ -53,6 +53,45 @@ Conditional Statements.
 
    }
 
+   1. In C, it is possible to creat an if-else, if-else chain.
+   2. In scratch, this required nesting blocks.
+   3. As you would expect each branch is mutually exclusive.
+6. 5. if (boolean expression 1)
+
+   {
+   
+                //first branch
+
+   }
+   
+   if (boolean expression 2)
+   
+   {
+
+                //second branch 
+
+   }
+
+   if (boolean expression 3)
+   
+   {
+   
+                //third branch 
+
+   }
+
+   else
+
+   {
+
+                //fourth branch
+
+   }
+
+   1. Its is possible to create a chain of non mutually exclusive branches.
+   2. In this example, only the third and fourth branches are mutually exclusive. The else binds to the nest if only.
+   
+
    
 
    
