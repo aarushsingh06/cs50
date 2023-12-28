@@ -56,7 +56,7 @@ Conditional Statements.
    1. In C, it is possible to creat an if-else, if-else chain.
    2. In scratch, this required nesting blocks.
    3. As you would expect each branch is mutually exclusive.
-6. 5. if (boolean expression 1)
+6. if (boolean expression 1)
 
    {
    
@@ -90,7 +90,28 @@ Conditional Statements.
 
    1. Its is possible to create a chain of non mutually exclusive branches.
    2. In this example, only the third and fourth branches are mutually exclusive. The else binds to the nest if only.
+6. int x = GetInt();
    
+   switch (x)
+
+   {
+
+   case 1:
+      printf("One! \n");
+      break;
+   case 2:
+      printf("Two! \n") ;
+      break;
+   case 3:
+      printf ("Three! \n"); break; default:
+      break;
+   case 4:
+      printf("Sorry! \n");
+      break;
+   default:
+      printf("Sorry\n");
+
+   }
 
    
 
