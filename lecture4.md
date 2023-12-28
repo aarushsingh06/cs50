@@ -25,7 +25,19 @@ Operators
          3. Logical NOT (!) inverts the value of its operand.
       2. Relational operators.
          1. These behave as you would expect them to, and appear syntactically similar to how you may recall them from elementary arithmetic.
-         2.  Less than (x < y)
-         3.  Less than or equal to (x <= y)
-         4.  Greater than (x > y)
-         5.  Greater than or equal to (x >= y)
+            1. Less than (x < y)
+            2. Less than or equal to (x <= y)
+            3. Greater than (x > y)
+            4. Greater than or equal to (x >= y)
+         2. C also can test two variables for equality and inequality.
+            1. Equality (x == y)
+            2. Inequality (x ! = y)
+         3. Be careful! It's a common mistake to use the assignment operator (=) when you intend to use the equality operator (==).
+
+
+
+
+
+
+
+
