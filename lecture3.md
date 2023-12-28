@@ -39,7 +39,15 @@ Data Types and Variables:
         1. int height, width;
         2. float sortz, sarts, pi;
      3. In general, it's good practice to only declare variables when you need them.       
-
+   9. Using a variable.
+      1. After a variable has been declared, it's no longer necessary to specify that variable's type. (In fact, doing so has some unintended consequences!)
+         1. int number;           //declaration
+         2. number = 17;          //assignment
+         3. cahr letter;          //declaration
+         4. letter = 'H';         //assaignment
+      2. If you are simultaneously declaring and setting the value of a variable (sometimes called initializing), you can consolidate this to one step.
+         1. int number = 17;      //initialization
+         2. char letter = 'H';    //initialization
 
 
 
