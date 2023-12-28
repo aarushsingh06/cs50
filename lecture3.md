@@ -25,5 +25,28 @@ Data Types and Variables:
     4. For now, think of void more as a placeholder for "nothing". It's more complex than that, but this should suffice for the better part of the course.
  7. CS50
     1. Bool
-       • The bool data type is used for variables that will store a Boolean value. More precisely, they are capable only of storing one of two values: true and false.
-       • Be sure to #include ‹cs50.h> atop your programs if you wish to use the bool type.
+       1. The bool data type is used for variables that will store a Boolean value. More precisely, they are capable only of storing one of two values: true and false.
+       2. Be sure to #include ‹cs50.h> atop your programs if you wish to use the bool type.
+    2. string
+       1. The string data type is used for variables that will store a series of characters, which programmers typically call a string.
+       2. Strings include things such as words, sentences, paragraphs, and the like.
+       3. Be sure to #include ‹cs50.h› atop your programs if you wish to use the string type.
+  8. Creating a variable.
+     1. To bring a variable into existence, you need simply specify the data type of the variable and give it a name.
+        1. int number;
+        2. char letter;
+     2. If you wish to create multiple variables of the same type, you specify the type name once, and then list as many variables of that type as you want.
+        1. int height, width;
+        2. float sortz, sarts, pi;
+     3. In general, it's good practice to only declare variables when you need them.       
+
+
+
+
+
+
+
+
+
+
+
