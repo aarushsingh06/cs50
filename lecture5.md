@@ -6,5 +6,18 @@ Conditional Statements.
    {
    
    }
-3. If the boolean-expression evaluates to true, all lines of code between the curly braces will execute in order from top-to-bottom.
-4. If the boolean-expression evaluates to false, those lines of code will not execute.
+   1. If the boolean-expression evaluates to true, all lines of code between the curly braces will execute in order from top-to-bottom.
+   2. If the boolean-expression evaluates to false, those lines of code will not execute.
+4. if (boolean expression)
+
+   {
+
+   }
+   
+   else
+   
+   {
+   
+   }
+   1. If the boolean-expression evaluates to true, all lines of code between the first set of curly braces will execute in order from top-to-bottom.
+   2. If the boolean-expression evaluates to false, all lines of code between the second set of curly braces will execute in order from top-to-bottom.
