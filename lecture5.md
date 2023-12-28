@@ -90,7 +90,7 @@ Conditional Statements.
 
    1. Its is possible to create a chain of non mutually exclusive branches.
    2. In this example, only the third and fourth branches are mutually exclusive. The else binds to the nest if only.
-6. int x = GetInt();
+7. int x = GetInt();
    
    switch (x)
 
@@ -128,7 +128,7 @@ Conditional Statements.
 
    1. C's switch() statement is a conditional statement that permits enumeration of discrete cases, instead of relying on Boolean expressions.
    2. It's important to break; between each case, or you will "fall through" each case (unless that is desired behaviour).
-7.
+8.
    1. int x;
 
    if (exprssion)
@@ -147,7 +147,9 @@ Conditional Statements.
 
    }
    
-
+   2. int x = (expression) ? 5 : 6;
+      1. These two snippets of codes act identically.
+      2. The ternaray operator (?:)is mostly a cute trick, but is useful for writing trivally shot conditionally branches. Be familiar with it, but know that you won't need to write it if you don't want to.
 
 
 
