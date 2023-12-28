@@ -23,4 +23,7 @@ Data Types and Variables:
     2. Functions can have a void return type, which just mean the don't return a value.
     3. The parameter list of a functions can also be a void. It simply mran the functions take no parameters values.
     4. For now, think of void more as a placeholder for "nothing". It's more complex than that, but this should suffice for the better part of the course.
-    5. 
+ 7. CS50
+    1. Bool
+       • The bool data type is used for variables that will store a Boolean value. More precisely, they are capable only of storing one of two values: true and false.
+       • Be sure to #include ‹cs50.h> atop your programs if you wish to use the bool type.
