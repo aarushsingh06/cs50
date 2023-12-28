@@ -14,10 +14,46 @@ Conditional Statements.
 
    }
    
-   else,
+   else
    
    {
    
    }
    1. If the boolean-expression evaluates to true, all lines of code between the first set of curly braces will execute in order from top-to-bottom.
    2. If the boolean-expression evaluates to false, all lines of code between the second set of curly braces will execute in order from top-to-bottom.
+5. if (boolean expression 1)
+
+   {
+   
+                //first branch
+
+   }
+   
+   else if (boolean expression 2)
+   
+   {
+
+                //second branch 
+
+   }
+
+    else if (boolean expression 3)
+   
+   {
+   
+                //third branch 
+
+   }
+
+   else
+
+   {
+
+                //fourth branch
+
+   }
+
+   
+
+   
+   
