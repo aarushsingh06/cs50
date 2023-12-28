@@ -124,8 +124,35 @@ Conditional Statements.
    
       printf("Sorry\n");
    
+   }
+
+   1. C's switch() statement is a conditional statement that permits enumeration of discrete cases, instead of relying on Boolean expressions.
+   2. It's important to break; between each case, or you will "fall through" each case (unless that is desired behaviour).
+7.
+   1. int x;
+
+   if (exprssion)
+
+   {
+
+     x = 5;
 
    }
+
+   else
+
+   {
+
+     x = 6;
+
+   }
+   
+
+
+
+
+
+   
 
    
 
