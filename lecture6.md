@@ -17,3 +17,17 @@ Loops
             1. If it evaluates to true, the body of the loop executes.
             2. If it evaluates to false, the body of the loop does not execute.
          3. The counter variable is incremented, and then the Boolean expression is checked again, etc.
+    5. for (start; exp; increment)
+       1. Syntactically unattractive, but for loops are used to repeat the body of a loop a specified number of times, in this example 10.
+       2. The process undertaken in a for loop is:
+          1. The statements) in start are executed
+          2. The expr is checked.
+             1. If it evaluates to true, the body of the loop executes.
+             2. If it evaluates to false, the body of the loop does not execute.
+          3. The statements) in increment are executed, and then the expr is checked again, etc.
+3. while:
+   1. Use when you want a loop to repeat an unknown number of times, and possibly not at all.
+4. do-while:
+   1. Use when you want a loop to repeat an unknown number of times, but at least once.
+5. for:
+   1. Use when you want a loop to repeat a discrete number of times, though you may not know the number
