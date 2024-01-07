@@ -16,4 +16,23 @@ Using the Linux Command Line
       1.  Short for "copy", this command will allow you to create a duplicate of the file you specify as < source>, which it will save in ‹ destination›.
       2.  If you wish to copy entire directories, you'll need to modify the command slightly:
       3.  cp -r < source directory > ‹destination directory›
-      4.  The "-p" stands for recursive, and tells cp to dive down into the directory and copy everything inside of it (including any subdirectories it might contain).
+      4.  The "-r" stands for recursive, and tells cp to dive down into the directory and copy everything inside of it (including any subdirectories it might contain).
+   5. rm ‹ file >
+      1. Short for "remove", this command will delete ‹ file › after it asks you to confirm (y/n) you want to delete it.
+      2.  You can skip the confirmation by typing:
+      3.  rm -f ‹file› But use at your own peril! There's no undo.
+      4.  To delete entire directories you need to use the -r flag, just as was the case with cp. rm -r ‹ directory >
+      5.  You can also combine the -r and - f flags into -rf. Again, careful! There's no undo!
+   6. mv ‹ source > ‹destination ›\
+      1. Short for "move", this command will allow you to effectively rename a file, moving it from < source> to ‹ destination›.
+5. To be sure, there are many more basic command line utilities at your disposal, and we'll discuss many of them in the future in CS50.
+6. If you wish to explore other interesting ones before we see them in the class, read up on:
+chmod
+In
+touch
+rmdir
+man
+diff
+sudo
+clear
+telnet
