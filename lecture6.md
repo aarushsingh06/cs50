@@ -11,4 +11,9 @@ Using the Linux Command Line
       3. The shorthand name for the parent directory of the current directory is ..
       4. If ever curious about the name of the current directory, though the terminal prompt will often tell you, you can type pwd (present working directory).
    3. mkdir < directory>
-      1. Short for "make directory", this command will create a new subdirectory called ‹ directory> located in the current directory. 
+      1. Short for "make directory", this command will create a new subdirectory called ‹ directory> located in the current directory.
+   4. cp ‹ source > ‹destination›
+      1.  Short for "copy", this command will allow you to create a duplicate of the file you specify as < source>, which it will save in ‹ destination›.
+      2.  If you wish to copy entire directories, you'll need to modify the command slightly:
+      3.  cp -r < source directory > ‹destination directory›
+      4.  The "-p" stands for recursive, and tells cp to dive down into the directory and copy everything inside of it (including any subdirectories it might contain).
